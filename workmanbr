@@ -1,0 +1,83 @@
+// Workman Keyboard Layout symbols for xkb on X.Org Server 7.x
+// 09-06-2010 OJ Bucao. https://workmanlayout.org
+// 05-08-2021 Added Brazilian accents, by Adalberto Luiz
+
+partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "Brazilian Workman";
+
+    // Key esc receives ccedilla
+    key <ESC>    { [  ccedilla, Ccedilla ]  };
+    
+    // Number row
+    key <TLDE> { [   apostrophe,       quotedbl                 ] };
+    key <AE01> { [            1,         exclam,   onesuperior  ] };
+    key <AE02> { [            2,             at,   twosuperior  ] };
+    key <AE03> { [            3,     numbersign, threesuperior  ] };
+    key <AE04> { [            4,         dollar,      sterling  ] };
+    key <AE05> { [            5,        percent,          cent  ] };
+    key <AE06> { [            6, dead_diaeresis,       notsign  ] };
+    key <AE07> { [            7,      ampersand,  seveneighths  ] };
+    key <AE08> { [            8,       asterisk,     trademark  ] };
+    key <AE09> { [            9,      parenleft,     plusminus  ] };
+    key <AE10> { [            0,     parenright,        oslash  ] };
+    key <AE11> { [  bracketleft,      braceleft,   ordfeminine  ] };
+    key <AE12> { [ bracketright,     braceright,     masculine  ] };
+    // Backspace as dead acute
+    key <BKSP> { [   dead_acute,     dead_grave                 ] };
+
+    // Alphanumeric section - First row
+    key <AD01> { [            q,              Q,         slash  ] };
+    key <AD02> { [            d,              D,         comma  ] };
+    key <AD03> { [            r,              R,        period  ] };
+    key <AD04> { [            w,              W                 ] };
+    key <AD05> { [            b,              B                 ] };
+    key <AD06> { [            j,              J                 ] };
+    key <AD07> { [            f,              F                 ] };
+    key <AD08> { [            u,              U                 ] };
+    key <AD09> { [            p,              P                 ] };
+    key <AD10> { [    semicolon,          colon                 ] };
+    
+    // Brazilian accents - First row
+    key <AD11> { [        equal,           plus                 ] };
+    // Dead acute as backspace
+    key <AD12> { [    BackSpace                                 ] };
+
+    // Second row
+    // Directionals with Alt-gr
+    key <AC01> { [            a,              A,          Left  ] };
+    key <AC02> { [            s,              S,          Down  ] };
+    key <AC03> { [            h,              H,            Up  ] };
+    key <AC04> { [            t,              T,         Right  ] };
+    key <AC05> { [            g,              G                 ] };
+    key <AC06> { [            y,              Y                 ] };
+    key <AC07> { [            n,              N                 ] };
+    key <AC08> { [            e,              E                 ] };
+    key <AC09> { [            o,              O                 ] };
+    key <AC10> { [            i,              I                 ] };
+    
+    // Brazilian accents - Second row
+    key <AC11> { [   dead_tilde, dead_circumflex                ] };
+    key <BKSL> { [        minus,      underscore                ] };
+
+    key <LSGT> { [       Escape                                 ] };
+    key <AB01> { [            z,              Z                 ] };
+    key <AB02> { [            x,              X                 ] };
+    key <AB03> { [            m,              M                 ] };
+    key <AB04> { [            c,              C,      ccedilla  ] };
+    key <AB05> { [            v,              V                 ] };
+    key <AB06> { [            k,              K                 ] };
+    key <AB07> { [            l,              L                 ] };
+    
+    // Brazilian accents - Third row
+    key <AB08> { [        comma,           less                 ] };
+    key <AB09> { [       period,        greater,     backslash  ] };
+    key <AB10> { [        slash,       question,           bar  ] };
+    key <AB11> { [    backslash,            bar                 ] };
+
+    // End alphanumeric section
+    key <CAPS> { [               Super_L                        ] };
+
+    include "level3(ralt_switch)"
+};

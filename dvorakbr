@@ -1,0 +1,79 @@
+// Brazilian Dvorak keyboard                     2008-05-04
+// "Teclado Simplificado Brasileiro" ou "Dvorak Brasileiro"
+//
+// Driver para o X Window System, doado ao domínio público.
+//
+// Autores          Contato e Sugestões           Website
+// ================================================================
+// Nando Florestan  nando@acapela.com.br          oui.com.br/
+// Heitor Moraes    heitor.moraes@gmail.com
+// Luiz Portella    lfpor@lujz.org                www.lujz.org/lfpor/dvorak.html
+// ================================================================
+// Alterado por Adalberto Luiz em 25/07/21
+// ================================================================
+
+partial default alphanumeric_keys
+xkb_symbols "basic" {
+
+    name[Group1]="Brazilian Dvorak";
+
+    key <TLDE>   { [   apostrophe,        quotedbl                ] };
+    key <AE01>   { [            1,          exclam,   onesuperior ] };
+    key <AE02>   { [            2,              at,   twosuperior ] };
+    key <AE03>   { [            3,      numbersign, threesuperior ] };
+    key <AE04>   { [            4,          dollar,      sterling ] };
+    key <AE05>   { [            5,         percent,          cent ] };
+    key <AE06>   { [            6,  dead_diaeresis,       notsign ] };
+    key <AE07>   { [            7,       ampersand,  seveneighths ] };
+    key <AE08>   { [            8,        asterisk,     trademark ] };
+    key <AE09>   { [            9,       parenleft,     plusminus ] };
+    key <AE10>   { [            0,      parenright,        oslash ] };
+    key <AE11>   { [  bracketleft,       braceleft,   ordfeminine ] };
+    key <AE12>   { [ bracketright,      braceright,     masculine ] };
+    key <BKSP>   { [   dead_acute,      dead_grave,         acute ] };
+
+    key <AD01>   { [        slash,        question                ] };
+    key <AD02>   { [        comma,            less                ] };
+    key <AD03>   { [       period,         greater                ] };
+    key <AD04>   { [            p,               P                ] };
+    key <AD05>   { [            y,               Y                ] };
+    key <AD06>   { [            f,               F                ] };
+    key <AD07>   { [            g,               G                ] };
+    key <AD08>   { [            c,               C                ] };
+    key <AD09>   { [            r,               R                ] };
+    key <AD10>   { [            l,               L                ] };
+    key <AD11>   { [        equal,            plus                ] };
+    key <AD12>   { [                   BackSpace                  ] };
+
+    key <CAPS>   { [                   Super_L                    ] };
+    key <AC01>   { [            a,               A,          Left ] };
+    key <AC02>   { [            o,               O,          Down ] };
+    key <AC03>   { [            e,               E,            Up ] };
+    key <AC04>   { [            u,               U,         Right ] };
+    key <AC05>   { [            i,               I                ] };
+    key <AC06>   { [            d,               D                ] };
+    key <AC07>   { [            h,               H                ] };
+    key <AC08>   { [            t,               T                ] };
+    key <AC09>   { [            n,               N                ] };
+    key <AC10>   { [            s,               S                ] };
+    key <AC11>   { [   dead_tilde, dead_circumflex                ] };
+    key <BKSL>   { [        minus,      underscore                ] };
+
+    key <LSGT>   { [                     Escape                   ] };
+    key <ESC>    { [     ccedilla,        Ccedilla                ] };
+    key <AB01>   { [    semicolon,           colon                ] };
+    key <AB02>   { [            q,               Q                ] };
+    key <AB03>   { [            j,               J                ] };
+    key <AB04>   { [            k,               K                ] };
+    key <AB05>   { [            x,               X                ] };
+    key <AB06>   { [            b,               B                ] };
+    key <AB07>   { [            m,               M                ] };
+    key <AB08>   { [            w,               W                ] };
+    key <AB09>   { [            v,               V,     backslash ] };
+    key <AB10>   { [            z,               Z,           bar ] };
+
+// ABNT-2 keyboard has this special key:
+    key <AB11>   { [ backslash,      bar,                slash,       dead_breve ] };
+
+    include "level3(ralt_switch)"
+};
