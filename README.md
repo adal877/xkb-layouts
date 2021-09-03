@@ -84,8 +84,28 @@ Faça o mesmo para as demais teclas.
  
  <strike>da teus pulos para fazer as modificações para as demais teclas</strike>
 
+# Fontes
+Anteriormente eu não dei os créditos aos criadores do layout Dvorak brasileiro, o qual me inpirei na criação do meu layout e até à começar 
+nesse mundo de configuração e customização de layouts.
+Header do layout Dvorak + br que utilizei como base:
+
+// Brazilian Dvorak keyboard                     2008-05-04
+// "Teclado Simplificado Brasileiro" ou "Dvorak Brasileiro"
+//
+// Driver para o X Window System, doado ao domínio público.
+//
+// Autores          Contato e Sugestões           Website
+// ================================================================
+// Nando Florestan  nando@acapela.com.br          oui.com.br/
+// Heitor Moraes    heitor.moraes@gmail.com
+// Luiz Portella    lfpor@lujz.org                www.lujz.org/lfpor/dvorak.html
+// ================================================================
+
+Gostaria de agradecer pela contribuição. <3
+
 # Muito thanks
   
-Seguinte seres, qualquer ideia, sugestão e ou reclamações é só abrir um issue.
+Seguinte seres, qualquer ideia, sugestão e ou reclamações é só abrir um issue ou entrar em contato:
+* gmail: adaltt877@gmail.com (por favor, use 'Sugestão', 'Ideia' ou 'Comentario' no campo assunto).
 tmj <3
 ![alt text](https://68.media.tumblr.com/06ea570b99b4e449c5aebeec2c5b6e75/tumblr_oldiimQp4Z1va5dgko1_500.png)
