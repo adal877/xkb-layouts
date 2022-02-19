@@ -88,9 +88,7 @@ Header do layout Dvorak + br que utilizei como base:
 
 Gostaria de agradecer pela contribuição. <3
 
-# Muito thanks
-  
-Seguinte seres, qualquer ideia, sugestão e ou reclamações é só abrir um issue ou entrar em contato:  
-* gmail: adaltt877@gmail.com (por favor, use 'Sugestão', 'Ideia' ou 'Comentario' no campo assunto).  
+# Muito thanks  
+
 tmj <3  
 ![alt text](https://68.media.tumblr.com/06ea570b99b4e449c5aebeec2c5b6e75/tumblr_oldiimQp4Z1va5dgko1_500.png)
